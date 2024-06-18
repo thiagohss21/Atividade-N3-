@@ -29,7 +29,11 @@ O layout abaixo demonstra a representação visual desse paradigma.
 
 ![Ciclo de Vida da Activity](layout%20activity%20-%20ciclo%20da%20vida.png)
 
+Cada tópico desse layout será explicado abaixo.
 
+1. Activity launched -> indica que uma Activity está sendo iniciada ou relançada no Android, seja ela pela primeiria vez ou após ter sido minimizada ou pausada. É um evento central no ciclo da vida de uma Activity, pois marca o ponto em que a interação do usuário com a interface começa ou é retomada.
+
+2. onCreat() -> esse callback precisa ser implementado. Ele é acionado assim que o sistema cria a atividade. Quando a atividade é criada, ela insere o estado Criado. No método onCreat(), execute a lógica básica de inicialização do aplicativo que acontece apenas uma vez durante toda a vida útil da atividade. Exemplo de uma onCreat(), sua implementação pode vincular dados a lista, associar a ativadade a um ViewModel(é um componente arquitetural do Android Jetpack, introduzido para resolver problemas comuns relacionados à gestão de dados e à preservação de estados em aplicativos Android. O principal objetivo do ViewModel é manter e gerenciar dados relacionados à interface do usuário de forma consciente do ciclo de vida, garantindo que os dados sobrevivam a mudanças de configuração, como rotações de tela, sem vazamentos de memória) e instanciar algumas variáveis com escopo de classe. Esse método recebe parâmetro savedInstanceState, que é um objeto Bundle que contém o estado salvo anteriormente da atividade. Se a atividade nunca existiu, o valor do objeto Bundle será nulo.
 
 
 
