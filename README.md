@@ -25,7 +25,10 @@ Em relação ao exposto acima, para navegar por transições entre os estágios 
 O sistema invoca cada um desses callbacks à medida que atividade entra em um novo estado.
 O layout abaixo demonstra a representação visual desse paradigma.
 
-layout activity - ciclo da vida.png
+# Ciclo de Vida da Activity
+
+![Ciclo de Vida da Activity](layout%20activity%20-%20ciclo%20da%20vida.png)
+
 
 
 
