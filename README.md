@@ -28,7 +28,7 @@ O layout abaixo demonstra a representação visual desse paradigma.
 
 # Ciclo de Vida da Activity
 
-![Ciclo de Vida da Activity](layout%20activity%20-%20ciclo%20da%20vida.png)
+![Lifecycle - cicloVida](images/cicloVida.png)
 
 Cada tópico desse layout será explicado abaixo.
 
