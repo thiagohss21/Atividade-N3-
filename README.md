@@ -1,6 +1,9 @@
 # Atividade-N3
+
 Atividade N3 - Ciclo da Vida da Activity
+
 Aluno: Thiago Henrique Souza e Silva
+
 4º Período - Noite - Faculdade Nova Roma
 
 Um breve resumo do que se trata o ciclo da vida de uma Activity, que trás a medida que o usuário navega no aplicativo, sai dele e retorna a ele, as instâncias do Activity no aplicativo transitam entre diferentes estaods no ciclo da vida, ou seja, a classe Activity fornece vários callbacks(o que é um callback -> é um conceito fundamental na programação que descreve a capacidade de uma função chamar a outra função como argumento), em termos simples, é uma função que é passada como paramêtro para outra função e é executada quando um determinado evento ocorre, ou seja, ele permite que atividade saiba quando um estado muda ou que o sistema está criando, interrompendo ou retomando uma atividade ou destruindo o processo em que ela está localizada.
