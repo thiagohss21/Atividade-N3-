@@ -10,13 +10,13 @@ Um breve resumo do que se trata o ciclo da vida de uma Activity, que trás a med
 
 Dentro dos métodos de callbacks do ciclo da vida, podemos declarar como atividade de se comportar quando o usuário sai e retorna dela. Um exemplo disso é se estiver sendo criado um play de streaming de vídeo, poderar pausar o vídeo e encerrar as conexões de rede quando o usuário alternar para outro app. Quando o usuário retornar, poderá se reconectar à rede e permitir que ele retome o vídeo do mesmo local. Nesse sentido, os callbacks são utilizados na programação em páginas da web, em manipulação de arquivos, requisições assícronas e também nas animações e transições.
 
-Nestes contexto, uma boa implementação dos callbacks do ciclo da vida pode ajudar se app a evitar os seguintes pontos:
+Nesse contexto, uma boa implementação dos callbacks do ciclo da vida pode ajudar o app a evitar os seguintes pontos:
 
 1. Falhas se o usuário receber uma chamada telefônica ou mudar para outro aplicativo enquanto estiver usando seu aparelho;
 2. Consumo de recursos importantes do sistema quando o usuário não estiver usando ativamente o aplicativo; e
 3. Falhas ou perda do progresso do usuário quando a orientação da tela mudar entre paisagem e retrato.
 
-Em relação ao exposto acima, para navegar por transições entre os estágios do ciclo da vida da atividade, a class Activity fornece um conjunto principal de 7 callbacks: 
+Em relação ao exposto acima, para navegar por transições entre os estágios do ciclo da vida da atividade, a class Activity fornece uma série de conjuntos:
 
 1. onCreat();
 2. onStart();
